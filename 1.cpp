@@ -69,7 +69,7 @@ void CDcommand( vector<string> command)
     }
     // else if(strcmp(command.at(command.size() - 1), "-") == 0))
     // {
-        num = chdir(setenv)
+        num = chdir(setenv);
     // }
         else
         {
@@ -475,3 +475,5 @@ int main(int argc, char **argv) {
     
     return 0; 
 }
+
+
